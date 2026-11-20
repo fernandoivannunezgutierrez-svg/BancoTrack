@@ -110,7 +110,10 @@ INSERT INTO `roles` (`id`, `nombre`, `descripcion`) VALUES
 ON DUPLICATE KEY UPDATE `descripcion` = VALUES(`descripcion`);
 
 INSERT INTO `usuarios` (`id`, `nombre`, `email`, `password_hash`, `rol_id`, `activo`) VALUES
-  (1, 'Administrador Demo', 'admin@bancotrack.cl', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 1, 1),
-  (2, 'Ejecutivo Comercial Demo', 'ejecutivo@bancotrack.cl', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 2, 1),
-  (3, 'Auditor Interno Demo', 'auditor@bancotrack.cl', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', 3, 1)
-ON DUPLICATE KEY UPDATE `nombre` = VALUES(`nombre`), `rol_id` = VALUES(`rol_id`);
+  (1, 'Administrador Demo', 'admin@bancotrack.cl', '$2y$12$TBvxlirFjzakFbwf3E76v..evfkMa/9fGV2zMpOvVNgaR7I/NgibC', 1, 1),
+  (2, 'Ejecutivo Comercial Demo', 'ejecutivo@bancotrack.cl', '$2y$12$TBvxlirFjzakFbwf3E76v..evfkMa/9fGV2zMpOvVNgaR7I/NgibC', 2, 1),
+  (3, 'Auditor Interno Demo', 'auditor@bancotrack.cl', '$2y$12$TBvxlirFjzakFbwf3E76v..evfkMa/9fGV2zMpOvVNgaR7I/NgibC', 3, 1)
+ON DUPLICATE KEY UPDATE
+  `nombre` = VALUES(`nombre`),
+  `password_hash` = VALUES(`password_hash`),
+  `rol_id` = VALUES(`rol_id`);
