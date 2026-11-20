@@ -1,0 +1,11 @@
+rut;nombre_completo;email;telefono;comuna;region;segmento;estado
+15.234.567-8;Camila Andrea Rojas Muñoz;camila.rojas@ejemplo.cl;+56981234567;Providencia;Metropolitana de Santiago;Preferente;Activo
+16.890.123-4;Matías Ignacio Soto Valenzuela;matias.soto@ejemplo.cl;+56976543210;Las Condes;Metropolitana de Santiago;Corporativo;Activo
+14.567.890-1;Valentina Paz Contreras Díaz;valentina.contreras@ejemplo.cl;+56992345678;Viña del Mar;Valparaíso;Retail;Activo
+17.345.678-9;Sebastián Eduardo Fuentes Lagos;sebastian.fuentes@ejemplo.cl;+56965432109;Concepción;Biobío;Pyme;En Evaluación
+13.987.654-3;Francisca Javiera Morales Pérez;francisca.morales@ejemplo.cl;+56954321098;Temuco;La Araucanía;Retail;Activo
+18.112.233-5;Diego Alonso Herrera Castillo;diego.herrera@ejemplo.cl;+56943210987;Antofagasta;Antofagasta;Pyme;Activo
+12.456.789-0;Catalina Belén Araya Vergara;catalina.araya@ejemplo.cl;+56932109876;La Serena;Coquimbo;Preferente;Activo
+19.654.321-7;Nicolás Esteban Tapia Guzmán;nicolas.tapia@ejemplo.cl;+56921098765;Puerto Montt;Los Lagos;Retail;En Evaluación
+11.223.344-6;Paula Fernanda Sepúlveda Bravo;paula.sepulveda@ejemplo.cl;+56910987654;Rancagua;O'Higgins;Corporativo;Activo
+20.445.566-2;Tomás Vicente Riquelme Castro;tomas.riquelme@ejemplo.cl;+56987654321;Ñuñoa;Metropolitana de Santiago;Retail;Inactivo
